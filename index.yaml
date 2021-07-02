@@ -5,7 +5,38 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.19.10
-    created: "2021-07-02T10:50:04.561644-03:00"
+    created: "2021-07-02T11:02:03.049689-03:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for the nginx server
+    digest: 941930b32b091e6b4838304e3aa6a16bed487d36870adae4ff1d73b92e010e90
+    home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: nginxharness
+    sources:
+    - https://github.com/bitnami/bitnami-docker-nginx
+    - http://www.nginx.org
+    urls:
+    - https://gabrielcerioni.github.io/helm-charts/nginxharness-7.0.0.tgz
+    version: 7.0.0
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.19.10
+    created: "2021-07-02T11:02:03.046263-03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -32,4 +63,4 @@ entries:
     urls:
     - https://gabrielcerioni.github.io/helm-charts/nginxharness-6.0.0.tgz
     version: 6.0.0
-generated: "2021-07-02T10:50:04.556797-03:00"
+generated: "2021-07-02T11:02:03.042904-03:00"
